@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'OST';
+    src: url('OpenSans-Light.ttf');
+}
+@font-face {
+    font-family: 'OSR';
+    src: url('OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'OSB';
+    src: url('OpenSans-SemiBold.ttf');
+}
+.container {
+	margin-top: 20px;
+}
+.title-1 {
+  font-family: 'OST';
+  font-size: 35px;
+}
+.title-2 {
+  font-family: 'OSR';
+  font-size: 35px;
+}
+.title-3 {
+  font-family: 'OSB';
+  font-size: 35px;
+}
+.vm {
+	font-size: 20px;
+	font-family: 'OSR';
+}
+.hr {
+	border-color: black;
+    border-width: 3px;
+    max-width: 50px;
+}
+.line {
+	border-color: black;
+    border-width: 30px;
+    max-width: 50px;
+    width: 100%;
+    height: 5px;
+}
